@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!--Tyylitys löytyy css tiedostosta-->
+    </head>
+    <body>
+        <div id="myDIV" class="otsikko">
+            <h2 style="margin:5px">Tässä on Heikin lista</h2>
+           <form>
+            <input type="text" id="tehtava-nimi" placeholder="Kirjoita tehtävä">
+            <span onclick="uusiTehtava()" class="nappi">Lisää</span>
+           </form>
+          </div>
+        <ul id="tehtavalista"></ul>
+        <!--Kommentit javascriptistä löytyy js tiedostosta-->
+        <script src="todoscipt.js">
+        </script>
+    </body>
+</html>
